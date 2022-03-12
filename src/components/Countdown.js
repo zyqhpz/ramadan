@@ -41,22 +41,90 @@ const Countdown = () => {
     
     return (
         <div className="countdown">
-            <div className="countdown__item">
-                <div className="countdown__item-value">{days}</div>
-                <div className="countdown__item-label">Days</div>
+            <div className="countdown-item">
+                <div className="countdown-item-value">{days}</div>
+                <div className="countdown-item-label">Days</div>
             </div>
-            <div className="countdown__item">
-                <div className="countdown__item-value">{hours}</div>
-                <div className="countdown__item-label">Hours</div>
+            <span>:</span>
+            <div className="countdown-item">
+                <div className="countdown-item-value">{hours}</div>
+                <div className="countdown-item-label">Hours</div>
             </div>
-            <div className="countdown__item">
-                <div className="countdown__item-value">{minutes}</div>
-                <div className="countdown__item-label">Minutes</div>
+            <span>:</span>
+            <div className="countdown-item">
+                <div className="countdown-item-value">{minutes}</div>
+                <div className="countdown-item-label">Minutes</div>
             </div>
-            <div className="countdown__item">
-                <div className="countdown__item-value">{seconds}</div>
-                <div className="countdown__item-label">Seconds</div>
+            <span>:</span>
+            <div className="countdown-item">
+                <div className="countdown-item-value">{seconds}</div>
+                <div className="countdown-item-label">Seconds</div>
             </div>
+
+            <style>
+                {`
+                    .countdown {
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: center;
+                        align-items: center;
+                        margin-top: 50px;
+                        border: 3px solid #fff;
+                        border-radius: 25px;
+                        padding: 25px;
+                    }
+
+                    .countdown-item {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        margin: 0 10px;
+                    }
+
+                    .countdown-item-value {
+                        font-size: 3rem;
+                        font-weight: bold;
+                        color: #fff;
+                    }
+
+                    .countdown-item-label {
+                        font-size: 1.5rem;
+                        font-weight: bold;
+                        color: #fff;
+                    }
+
+                    span {
+                        font-size: 2rem;
+                        font-weight: bold;
+                        color: #fff;
+                        padding: 0 10px;
+                    }
+
+                    @media screen and (max-width: 768px) {
+                        .countdown {
+                            margin-top: 20px;
+                        }
+
+                        .countdown-item {
+                            margin: 0 5px;
+                        }
+
+                        .countdown-item-value {
+                            font-size: 1.5rem;
+                        }
+
+                        .countdown-item-label {
+                            font-size: 0.75rem;
+                        }
+
+                        span {
+                            font-size: 1.5rem;
+                            letter-spacing: 1px;
+                        }
+                    }
+                `}
+            </style>
         </div>
     );
 };

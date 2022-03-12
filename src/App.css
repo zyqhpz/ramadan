@@ -1,5 +1,11 @@
 .App {
   text-align: center;
+  background-image: url('./img/mosque.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh;
 }
 
 .App-logo {
@@ -14,7 +20,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: rgba(0, 0, 0, 0.6);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,4 +41,10 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.font-face-rk {
+  font-family: "Ramadhan Kareem";
+  letter-spacing: 0.1em;
+  font-size: 64px;
 }

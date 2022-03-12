@@ -11,3 +11,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: "Ramadhan Kareem";
+  src: local("Ramadhan Kareem"), url("./fonts/Ramadhan Kareem.ttf") format("truetype");
+  font-weight: bold;
+}

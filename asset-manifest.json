@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/ramadan/static/css/main.ab2b4a48.css",
+    "main.js": "/ramadan/static/js/main.48773019.js",
+    "static/js/787.e5de3e6f.chunk.js": "/ramadan/static/js/787.e5de3e6f.chunk.js",
+    "static/media/mosque.jpg": "/ramadan/static/media/mosque.7af3ec2c861eac93689e.jpg",
+    "static/media/Ramadhan Kareem.ttf": "/ramadan/static/media/Ramadhan Kareem.ec8475fdad35419df8ae.ttf",
+    "index.html": "/ramadan/index.html",
+    "main.ab2b4a48.css.map": "/ramadan/static/css/main.ab2b4a48.css.map",
+    "main.48773019.js.map": "/ramadan/static/js/main.48773019.js.map",
+    "787.e5de3e6f.chunk.js.map": "/ramadan/static/js/787.e5de3e6f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ab2b4a48.css",
+    "static/js/main.48773019.js"
+  ]
+}
